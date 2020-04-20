@@ -8,6 +8,13 @@ This project requires [_System.Text.Json_](https://www.nuget.org/packages/System
 
 	Install-Package System.Text.Json -Version 4.7.1
 
+## Usage
+
+	Usage: RavenscriptApiScraper <arg>
+	  -o <file> write result to <file> instead of 'ravenscript_api.json'
+	  -q        quit without waiting for keypress
+	  -h        print this message
+
 ## Example output
 
 	{
